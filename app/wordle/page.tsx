@@ -147,7 +147,7 @@ export default function WordleGameScreen() {
         }
 
         setGuesses(newGuesses);
-    }, [currentInput]);
+    }, [currentInput, guesses, currentRow]);
 
     return (
         <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-0 gap-0 bg-gray-100 font-[family-name:var(--font-geist-sans)]">

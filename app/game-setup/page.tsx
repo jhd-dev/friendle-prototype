@@ -63,7 +63,7 @@ export default function Page() {
         if (selectedMode) {
             alert(
                 `Starting game in ${
-                    gameModes.find((mode) => mode.id === selectedMode).title
+                    gameModes.find((mode) => mode.id === selectedMode)?.title
                 }`
             );
             // In a real app, you would navigate to the game screen or start the game logic
