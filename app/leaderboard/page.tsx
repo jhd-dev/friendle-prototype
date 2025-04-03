@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { Navbar } from '@/components/navbar';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';

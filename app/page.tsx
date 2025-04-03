@@ -1,19 +1,7 @@
 'use client';
 
-import { Button } from '@/components/ui/button';
-import {
-    Card,
-    CardHeader,
-    CardTitle,
-    CardDescription,
-    CardContent,
-    CardFooter,
-} from '@/components/ui/card';
-import { Check, Home } from 'lucide-react';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { useState } from 'react';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { WeeklyStreak } from '@/components/weekly-streak';
 
 const weeklyStreak = {
