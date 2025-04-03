@@ -3,6 +3,7 @@
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { useState } from 'react';
 import { WeeklyStreak } from '@/components/weekly-streak';
+import { Navbar } from '@/components/navbar';
 
 const weeklyStreak = {
     monday: true,
@@ -102,6 +103,7 @@ export default function Page() {
                     </div>
                 </div>
             </main>
+            <Navbar />
         </div>
     );
 }
